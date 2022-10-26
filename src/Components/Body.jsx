@@ -30,7 +30,11 @@ export default function Body() {
           Get a new meme image🖼
         </button>
       </div>
-      <img src={memeImage} alt="" className="rounded-[2px] max-w-[96%]  h-full shadow-md" />
+      <img
+        src={memeImage}
+        alt=""
+        className="rounded-[2px] max-w-[96%]  h-full shadow-md"
+      />
       <a href="" download={memeImage}>
         Download
       </a>
